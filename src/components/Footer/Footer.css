@@ -1,0 +1,47 @@
+{/*COLOR FOOTER*/}
+.main-footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    color: #333;
+}
+
+{/*LISTA CENTRADA*/}
+.col {
+    flex-basis: 20%;
+    margin: 20px;
+}
+{/*LISTA DEL FOOTER*/}
+.listado {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+{/*LISTA DEL FOOTER*/}
+.listado li{
+    margin-bottom: 12px;
+}
+{/*LISTA DEL FOOTER*/}
+.listado li a{
+    color: black;
+}
+{/*TRAZADO LINEA FOOTER*/}
+.listado li:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.col-sm {
+    font-size: 15px;
+    color: #666;
+    text-align:center;
+}
+
+.footer-link {
+    color: red;
+    transition: color 0.3s ease;
+}
+.button {
+    color: red;
+    transition: color 0.3s ease;
+}
