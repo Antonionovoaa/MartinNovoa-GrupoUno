@@ -1,5 +1,4 @@
-import React from "react";
-import './footer.css';
+import './Footer.css';
 
 const Footer = () => {
     return (
@@ -9,7 +8,7 @@ const Footer = () => {
                     {/* ACERCA DE */}
                     <div className="col">
                         <h4>Acerca de</h4>
-                        <ul className="listado">
+                        <ul className="listado ">
                             <li>
                                 <a href="#" className="footer-link">Entre Brujos</a>
                             </li>
