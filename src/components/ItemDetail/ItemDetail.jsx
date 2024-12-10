@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
-import { useParams } from 'react-router-dom';
+import useBag from '../../store/useBag.jsx'; //marcelo
+import {Link, useParams} from 'react-router-dom';
 import { getProductById } from '../../data/asyncMock.jsx'
 
 import Loading from '../Loading/Loading.jsx';
@@ -11,6 +11,7 @@ export default function ItemDetail() {
 
     // SETEO EL LOADING EN TRUE
     const [loading, setLoading] = useState(true);
+    const addToCart = useBag(state => state.addToCart); //marcelo
 
     // CARGO LA DATA DE LA MOCK
     useEffect(() => {
@@ -78,7 +79,11 @@ export default function ItemDetail() {
 
                     <p className='text-[20px] my-[20px]'>Precio Total: ${precioTotal}</p>
                     <div>
-                        <button className='items-center bg-blue-500 text-white text-[20px] px-[20px] py-[5px] rounded hover:bg-blue-700'>Comprar</button>
+                        <button onClick={() => addToCart({ id: product.id, name: product.name, price: product.price, img: product.img })}>
+
+                            <Link to="/cart" className='bg-blue-500 text-white text-[20px] px-[20px] py-[5px] rounded hover:bg-blue-700'>Comprar</Link>
+
+                        </button>
                         {/*bg-[#171e27] text-[#ffffff] text-[20px] px-[20px] py-[5px] hover:bg-[#172625] rounded  */}
                     </div>
 

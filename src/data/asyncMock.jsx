@@ -75,7 +75,10 @@ export const products = [
         id: 7,
         name: 'chaleco',
         price: 300,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana.jpg',
         category: 'chaleco',
@@ -85,7 +88,10 @@ export const products = [
         id: 8,
         name: 'chaleco',
         price: 300,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana1.jpg',
         category: 'chaleco',
@@ -95,7 +101,10 @@ export const products = [
         id: 9,
         name: 'chaleco',
         price: 300,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana2.jpg',
         category: 'chaleco',
@@ -105,7 +114,10 @@ export const products = [
         id: 10,
         name: 'chaleco',
         price: 300,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana3.jpg',
         category: 'chaleco',
@@ -115,7 +127,10 @@ export const products = [
         id: 11,
         name: 'chaleco',
         price: 300,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana4.jpg',
         category: 'chaleco',
@@ -125,7 +140,10 @@ export const products = [
         id: 12,
         name: 'chaleco',
         price: 300,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana5.jpg',
         category: 'chaleco',
@@ -135,7 +153,10 @@ export const products = [
         id: 13,
         name: 'chaleco',
         price: 310,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana6.jpg',
         category: 'chaleco',
@@ -145,7 +166,10 @@ export const products = [
         id: 14,
         name: 'chaleco',
         price: 310,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana7.jpg',
         category: 'chaleco',
@@ -155,7 +179,10 @@ export const products = [
         id: 15,
         name: 'chaleco',
         price: 299,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana8.jpg',
         category: 'chaleco',
@@ -165,7 +192,10 @@ export const products = [
         id: 16,
         name: 'chaleco',
         price: 300,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana9.jpg',
         category: 'chaleco',
@@ -175,7 +205,10 @@ export const products = [
         id: 17,
         name: 'chaleco',
         price: 310,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana10.jpg',
         category: 'chaleco',
@@ -185,7 +218,10 @@ export const products = [
         id: 18,
         name: 'chaleco',
         price: 310,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana11.jpg',
         category: 'chaleco',
@@ -195,7 +231,10 @@ export const products = [
         id: 19,
         name: 'chaleco',
         price: 299,
-        despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
+        despcription: 'Chaleco de Lana Chilota Artesanal\n' +
+            'Añade un toque de calidez y estilo a tu guardarropa con nuestros exclusivos chalecos de lana chilota.\n' +
+            '\n' +
+            'Nuestros chalecos están cuidadosamente elaborados a mano utilizando la más fina lana de oveja chilota, garantizando una prenda de alta calidad que combina comodidad y tradición. Perfectos para protegerte del frío mientras luces un estilo único y auténtico.',
         stock: 5,
         img: '../public/Images/chalecolana12.jpg',
         category: 'chaleco',
@@ -205,7 +244,10 @@ export const products = [
         id: 20,
         name: 'materos',
         price: 6000,
-        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo',
+        despcription: 'Mates Artesanales de Calidad\n' +
+            '¡Disfruta de la tradición y el sabor del mate con nuestros mates artesanales!\n' +
+            '\n' +
+            'Nuestros mates están hechos a mano con materiales de la más alta calidad, asegurando una experiencia auténtica y duradera. Perfectos para disfrutar en compañía o para regalar a un ser querido.',
         stock: 10,
         img: '../public/Images/mates1.jpg',
         category: 'mates',
@@ -215,7 +257,10 @@ export const products = [
         id: 21,
         name: 'materos',
         price: 6000,
-        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        despcription: 'Mates Artesanales de Calidad\n' +
+            '¡Disfruta de la tradición y el sabor del mate con nuestros mates artesanales!\n' +
+            '\n' +
+            'Nuestros mates están hechos a mano con materiales de la más alta calidad, asegurando una experiencia auténtica y duradera. Perfectos para disfrutar en compañía o para regalar a un ser querido.',
         stock: 10,
         img: '../public/Images/mates2.jpg',
         category: 'mates',
@@ -225,7 +270,10 @@ export const products = [
         id: 22,
         name: 'materos',
         price: 6000,
-        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        despcription: 'Mates Artesanales de Calidad\n' +
+            '¡Disfruta de la tradición y el sabor del mate con nuestros mates artesanales!\n' +
+            '\n' +
+            'Nuestros mates están hechos a mano con materiales de la más alta calidad, asegurando una experiencia auténtica y duradera. Perfectos para disfrutar en compañía o para regalar a un ser querido.',
         stock: 10,
         img: '../public/Images/mates3.jpg',
         category: 'mates',
@@ -235,7 +283,10 @@ export const products = [
         id: 23,
         name: 'materos',
         price: 6000,
-        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        despcription: 'Mates Artesanales de Calidad\n' +
+            '¡Disfruta de la tradición y el sabor del mate con nuestros mates artesanales!\n' +
+            '\n' +
+            'Nuestros mates están hechos a mano con materiales de la más alta calidad, asegurando una experiencia auténtica y duradera. Perfectos para disfrutar en compañía o para regalar a un ser querido.',
         stock: 10,
         img: '../public/Images/mates4.jpg',
         category: 'mates',
@@ -245,7 +296,10 @@ export const products = [
         id: 24,
         name: 'materos',
         price: 7000,
-        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        despcription: 'Mates Artesanales de Calidad\n' +
+            '¡Disfruta de la tradición y el sabor del mate con nuestros mates artesanales!\n' +
+            '\n' +
+            'Nuestros mates están hechos a mano con materiales de la más alta calidad, asegurando una experiencia auténtica y duradera. Perfectos para disfrutar en compañía o para regalar a un ser querido.',
         stock: 10,
         img: '../public/Images/mates5.jpg',
         category: 'mates',
@@ -255,7 +309,10 @@ export const products = [
         id: 25,
         name: 'materos',
         price: 7000,
-        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        despcription: 'Mates Artesanales de Calidad\n' +
+            '¡Disfruta de la tradición y el sabor del mate con nuestros mates artesanales!\n' +
+            '\n' +
+            'Nuestros mates están hechos a mano con materiales de la más alta calidad, asegurando una experiencia auténtica y duradera. Perfectos para disfrutar en compañía o para regalar a un ser querido.',
         stock: 10,
         img: '../public/Images/mates6.jpg',
         category: 'mates',

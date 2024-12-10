@@ -33,7 +33,7 @@ const BagPage = () => {
                 {cart.length > 0 && (
                     <div className="cart-total">
                         <h3>Total: ${total}</h3>
-                        <div className="clear-button">
+                        <div className="clear-button ">
                             <button onClick={clearCart}>Vaciar Carrito</button>
                         </div>
                     </div>
