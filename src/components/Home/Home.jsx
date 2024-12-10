@@ -3,7 +3,7 @@ import ItemList from "../ItemList/ItemList";
 
 
 export default function HomePage() {
-    const imgBanner = '../public/images/banner.jpg';
+    const imgBanner = '../public/images/fondo3.jpg';
     return (
         <div>
             <div
@@ -11,11 +11,11 @@ export default function HomePage() {
                 style={{ backgroundImage: `url(${imgBanner})` }}
             >
                 <div className="container mx-auto max-w-[1170px] flex flex-col h-[700px] justify-center">
-                    <h2 className="text-[#ffffff] font-bold text-[100px] leading-[80px] uppercase">
+                    <h2 className="text-[#ffffff] font-bold text-[100px] leading-[85px] uppercase">
                         Entre
                     </h2>
-                    <h2 className="text-[#ffffff] font-bold text-[100px] leading-[80px] uppercase">Brujos</h2>
-                    <Link to="/" className="bg-[#2d3a4b] px-[50px] py-[5px] text-[18px] uppercase leading-[46px] flex w-[210px] text-center text-[#ffffff] mt-[30px]">COMPRA YA</Link>
+                    <h2 className="text-[#ffffff] font-bold text-[150px] leading-[85px] uppercase">Brujos</h2>
+
 
                 </div>
             </div>

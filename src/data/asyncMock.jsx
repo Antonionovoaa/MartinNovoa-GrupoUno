@@ -1,10 +1,11 @@
-
 export const products = [
     {
         id: 1,
         name: 'calcetas',
         price: 6000,
-        despcription: 'Chilotas material de lana fabricado a mano, especiales para el frio.',
+        despcription: 'Calcetas de Lana Chilota\n' +
+            '¡Experimenta la calidez y el confort con nuestras exclusivas calcetas de lana chilota! Hechas a mano con lana de oveja de la más alta calidad, estas calcetas no solo te mantendrán abrigado en los días más fríos, sino que también agregarán un toque de estilo artesanal a tu guardarropa..\n' +
+            'Estas calcetas son ideales para regalar a un ser querido o para darte un capricho. Su diseño tradicional y el uso de lana chilota aseguran que sean no solo cómodas, sino también duraderas y respetuosas con el medio ambiente.',
         stock: 10,
         img: '../public/Images/medias.jpg',
         category: 'calzado',
@@ -14,7 +15,9 @@ export const products = [
         id: 2,
         name: 'Calcetas',
         price: 6000,
-        despcription: 'Chilotas material de lana fabricado a mano, especiales para el frio.',
+        despcription: 'Calcetas de Lana Chilota\n' +
+            '¡Experimenta la calidez y el confort con nuestras exclusivas calcetas de lana chilota! Hechas a mano con lana de oveja de la más alta calidad, estas calcetas no solo te mantendrán abrigado en los días más fríos, sino que también agregarán un toque de estilo artesanal a tu guardarropa..\n' +
+            'Estas calcetas son ideales para regalar a un ser querido o para darte un capricho. Su diseño tradicional y el uso de lana chilota aseguran que sean no solo cómodas, sino también duraderas y respetuosas con el medio ambiente.',
         stock: 10,
         img: '../public/Images/medias2.jpg',
         category: 'calzado',
@@ -24,7 +27,9 @@ export const products = [
         id: 3,
         name: 'calcetas',
         price: 6000,
-        despcription: 'Chilotas material de lana fabricado a mano, especiales para el frio.',
+        despcription: 'Calcetas de Lana Chilota\n' +
+            '¡Experimenta la calidez y el confort con nuestras exclusivas calcetas de lana chilota! Hechas a mano con lana de oveja de la más alta calidad, estas calcetas no solo te mantendrán abrigado en los días más fríos, sino que también agregarán un toque de estilo artesanal a tu guardarropa..\n' +
+            'Estas calcetas son ideales para regalar a un ser querido o para darte un capricho. Su diseño tradicional y el uso de lana chilota aseguran que sean no solo cómodas, sino también duraderas y respetuosas con el medio ambiente.',
         stock: 10,
         img: '../public/Images/medias3.jpg',
         category: 'calzado',
@@ -32,9 +37,11 @@ export const products = [
     },
     {
         id: 4,
-        name: 'Calcetas',
+        name: 'calcetas',
         price: 6000,
-        despcription: 'Chilotas material de lana fabricado a mano, especiales para el frio.',
+        despcription: 'Calcetas de Lana Chilota\n' +
+            '¡Experimenta la calidez y el confort con nuestras exclusivas calcetas de lana chilota! Hechas a mano con lana de oveja de la más alta calidad, estas calcetas no solo te mantendrán abrigado en los días más fríos, sino que también agregarán un toque de estilo artesanal a tu guardarropa..\n' +
+            'Estas calcetas son ideales para regalar a un ser querido o para darte un capricho. Su diseño tradicional y el uso de lana chilota aseguran que sean no solo cómodas, sino también duraderas y respetuosas con el medio ambiente.',
         stock: 10,
         img: '../public/Images/medias4.jpg',
         category: 'calzado',
@@ -42,9 +49,11 @@ export const products = [
     },
     {
         id: 5,
-        name: 'Calcetas',
+        name: 'calcetas',
         price: 7000,
-        despcription: 'Chilotas material de lana fabricado a mano, especiales para el frio.',
+        despcription: 'Calcetas de Lana Chilota\n' +
+            '¡Experimenta la calidez y el confort con nuestras exclusivas calcetas de lana chilota! Hechas a mano con lana de oveja de la más alta calidad, estas calcetas no solo te mantendrán abrigado en los días más fríos, sino que también agregarán un toque de estilo artesanal a tu guardarropa..\n' +
+            'Estas calcetas son ideales para regalar a un ser querido o para darte un capricho. Su diseño tradicional y el uso de lana chilota aseguran que sean no solo cómodas, sino también duraderas y respetuosas con el medio ambiente.',
         stock: 10,
         img: '../public/Images/mediatalon1.jpg',
         category: 'calzado',
@@ -52,9 +61,11 @@ export const products = [
     },
     {
         id: 6,
-        name: 'Calcetas',
+        name: 'calcetas',
         price: 7000,
-        despcription: 'Chilotas material de lana fabricado a mano, especiales para el frio.',
+        despcription: 'Calcetas de Lana Chilota\n' +
+            '¡Experimenta la calidez y el confort con nuestras exclusivas calcetas de lana chilota! Hechas a mano con lana de oveja de la más alta calidad, estas calcetas no solo te mantendrán abrigado en los días más fríos, sino que también agregarán un toque de estilo artesanal a tu guardarropa..\n' +
+            'Estas calcetas son ideales para regalar a un ser querido o para darte un capricho. Su diseño tradicional y el uso de lana chilota aseguran que sean no solo cómodas, sino también duraderas y respetuosas con el medio ambiente.',
         stock: 10,
         img: '../public/Images/mediatalon2.jpg',
         category: 'calzado',
@@ -62,7 +73,7 @@ export const products = [
     },
     {
         id: 7,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 300,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -72,7 +83,7 @@ export const products = [
     },
     {
         id: 8,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 300,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -82,7 +93,7 @@ export const products = [
     },
     {
         id: 9,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 300,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -92,7 +103,7 @@ export const products = [
     },
     {
         id: 10,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 300,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -102,7 +113,7 @@ export const products = [
     },
     {
         id: 11,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 300,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -112,7 +123,7 @@ export const products = [
     },
     {
         id: 12,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 300,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -122,7 +133,7 @@ export const products = [
     },
     {
         id: 13,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 310,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -132,7 +143,7 @@ export const products = [
     },
     {
         id: 14,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 310,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -142,7 +153,7 @@ export const products = [
     },
     {
         id: 15,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 299,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -152,7 +163,7 @@ export const products = [
     },
     {
         id: 16,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 300,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -162,7 +173,7 @@ export const products = [
     },
     {
         id: 17,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 310,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -172,7 +183,7 @@ export const products = [
     },
     {
         id: 18,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 310,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
@@ -182,13 +193,73 @@ export const products = [
     },
     {
         id: 19,
-        name: 'chaleco lana',
+        name: 'chaleco',
         price: 299,
         despcription: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno',
         stock: 5,
         img: '../public/Images/chalecolana12.jpg',
         category: 'chaleco',
         sizes: ['S', 'M', 'L']
+    },
+    {
+        id: 20,
+        name: 'materos',
+        price: 6000,
+        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo',
+        stock: 10,
+        img: '../public/Images/mates1.jpg',
+        category: 'mates',
+        sizes: ['G','M','S']
+    },
+    {
+        id: 21,
+        name: 'materos',
+        price: 6000,
+        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        stock: 10,
+        img: '../public/Images/mates2.jpg',
+        category: 'mates',
+        sizes: ['G','M','S']
+    },
+    {
+        id: 22,
+        name: 'materos',
+        price: 6000,
+        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        stock: 10,
+        img: '../public/Images/mates3.jpg',
+        category: 'mates',
+        sizes: ['G','M','S']
+    },
+    {
+        id: 23,
+        name: 'materos',
+        price: 6000,
+        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        stock: 10,
+        img: '../public/Images/mates4.jpg',
+        category: 'mates',
+        sizes: ['G','M','S']
+    },
+    {
+        id: 24,
+        name: 'materos',
+        price: 7000,
+        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        stock: 10,
+        img: '../public/Images/mates5.jpg',
+        category: 'mates',
+        sizes: ['G','M','S']
+    },
+    {
+        id: 25,
+        name: 'materos',
+        price: 7000,
+        despcription: 'mates de cuero, losa, pata de vaca, madera palo santo.',
+        stock: 10,
+        img: '../public/Images/mates6.jpg',
+        category: 'mates',
+        sizes: ['G','M','S']
     },
 ];
 

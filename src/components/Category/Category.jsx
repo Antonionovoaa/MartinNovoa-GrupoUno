@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 // IMPORTO FUNCION PARA OBTENER LOS PRODUCTOS POR CATEGORIAS
-import { getProductByCategory } from '../../data/asyncMock.jsx'
+import { getProductByCategory } from "../../data/asyncMock";
 
 // IMPORTO ITEMLIST
 import ItemList from "../ItemList/ItemList";
@@ -18,12 +18,12 @@ export default function ProductsCategory(){
     const {categoryId} = useParams();
 
     useEffect (() => {
+        setLoading(true);
         getProductByCategory(categoryId)
             .then((data) => setProducts(data))
             .catch((err) => console.log(err))
             .finally(() => setLoading(false));
     }, [categoryId]);
-
 
 
     return(
@@ -34,7 +34,7 @@ export default function ProductsCategory(){
                 </div>
             ):(
 
-                <ItemList product={products}/>
+                <ItemList products={products}/>
             )}
         </div>
     )

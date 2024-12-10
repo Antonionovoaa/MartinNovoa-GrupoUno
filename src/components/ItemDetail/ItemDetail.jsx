@@ -1,8 +1,7 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
 
 import { useParams } from 'react-router-dom';
-import {getProductById, Product} from '../../data/asyncMock.jsx';
+import { getProductById } from '../../data/asyncMock.jsx'
 
 import Loading from '../Loading/Loading.jsx';
 
@@ -60,26 +59,29 @@ export default function ItemDetail() {
                     <h1 className='text-[45px] font-medium uppercase'>{product.name}</h1>
                     <p className='text-[20px] my-[20px]'>{product.despcription}</p>
                     <div>
-                        <h3 className="py-2 ml-4">Tallas disponibles:</h3>
+                        <h3>Tallas disponibles:</h3>
                         <ul className='flex'>
                             {product.sizes.map((size, index) => (
                                 <li key={index} className='text-[20px] my-[20px] border-[1px] w-[50px] flex justify-center mx-[10px]'>{size}</li>
                             ))}
                         </ul>
                     </div>
-                    <p className='text-[20px] pl-6 my-[20px]'>Stock: {product.stock}</p>
+                    <p className='text-[20px] my-[20px]'>Stock: {product.stock}</p>
 
                     <div className='flex'>
-                        <button onClick={decrementQuantity} className='rounded-[5px] hover:bg-slate-600 hover:text-[#ffffff] w-[50px] border-[2px] text-[25px]  flex justify-center'> - </button>
-                        <p className='text-[20px] px-[10px]'>{quantity}</p>
-                        <button onClick={incrementQuantity} className='rounded-[5px] hover:bg-slate-600 hover:text-[#ffffff] w-[50px] border-[2px] text-[25px] flex justify-center'> + </button>
+                        <button onClick={decrementQuantity} className='items-center bg-blue-500 text-white text-center rounded-[5px]  hover:text-[#ffffff] w-[50px] border-[1px] text-[20px] flex justify-center'> - </button>
+                        <p className='text-[20px] px-[30px]'>{quantity}</p>
+                        <button onClick={incrementQuantity} className='items-center bg-blue-500 text-white text-center rounded-[5px]  hover:text-[#ffffff] w-[50px] border-[1px] text-[20px] flex justify-center'> + </button>
                     </div>
 
                     <p className='text-[20px] my-[20px]'>Precio: ${product.price} por unidad</p>
 
                     <p className='text-[20px] my-[20px]'>Precio Total: ${precioTotal}</p>
+                    <div>
+                        <button className='items-center bg-blue-500 text-white text-[20px] px-[20px] py-[5px] rounded hover:bg-blue-700'>Comprar</button>
+                        {/*bg-[#171e27] text-[#ffffff] text-[20px] px-[20px] py-[5px] hover:bg-[#172625] rounded  */}
+                    </div>
 
-                    <button className='bg-[#ffffff] text-[#ffffff] text-[20px] px-[20px] py-[5px] hover:bg-[#13ba59] hover:text-[#ffffff] border-[2px]'>Comprar</button>
 
                 </div>
             </div>
